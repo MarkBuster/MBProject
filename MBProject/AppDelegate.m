@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "NavigationController.h"
+#import "MainListViewController.h"
+#import "MapViewController.h"
+#import "ToolViewController.h"
+@interface AppDelegate ()<
+UITabBarControllerDelegate
+>
 
 @end
 
@@ -16,7 +21,40 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    MainListViewController *mainListVC =[MainListViewController new];
+    
+    
+    NavigationController *nav1 = [[NavigationController alloc] initWithRootViewController:mainListVC];
+    nav1.tabBarItemTitle = @"mainList";
+    nav1.tabBarItemSeletectedImageName =@"";
+    nav1.tabBarItemUnSeletectedImageName = @"";
+    
+    MapViewController *mapVC =[MapViewController new];
+    NavigationController *nav2 = [[NavigationController alloc] initWithRootViewController:mapVC];
+    nav2.tabBarItemTitle = @"mapVC";
+    nav2.tabBarItemSeletectedImageName =@"";
+    nav2.tabBarItemUnSeletectedImageName = @"";
+    
+    ToolViewController *toolVC =[ToolViewController new];
+    NavigationController *nav3 =[[NavigationController alloc] initWithRootViewController:toolVC];
+    nav3.tabBarItemTitle = @"toolVC";
+    nav3.tabBarItemSeletectedImageName =@"";
+    nav3.tabBarItemUnSeletectedImageName = @"";
+    
+    NavigationController *nav4 =[[NavigationController alloc] initWithRootViewController:[UIViewController new]];
+    nav4.tabBarItemTitle = @"empty";
+    nav4.tabBarItemSeletectedImageName =@"";
+    nav4.tabBarItemUnSeletectedImageName = @"";
+    
+    UITabBarController *tabbarController = [UITabBarController new];
+    tabbarController.viewControllers = @[nav1, nav2,nav3,nav4];
+    [tabbarController.tabBar setBackgroundImage:[UIColor whiteColor].image];
+    tabbarController.selectedIndex = 0;
+    tabbarController.delegate = self;
+    self.window.rootViewController = tabbarController;
     return YES;
 }
 

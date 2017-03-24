@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ToolViewController.h
 //  MBProject
 //
 //  Created by yindongbo on 17/3/24.
 //  Copyright © 2017年 Dombo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ToolViewController : BaseViewController
 
 @end
-

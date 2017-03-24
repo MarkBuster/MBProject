@@ -1,29 +1,29 @@
 //
-//  ViewController.m
+//  MainListViewController.m
 //  MBProject
 //
 //  Created by yindongbo on 17/3/24.
 //  Copyright © 2017年 Dombo. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainListViewController.h"
 
-@interface ViewController ()
+@interface MainListViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"MainList";
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+ 
 
 @end
