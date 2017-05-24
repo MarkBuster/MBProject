@@ -1,0 +1,239 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap2DMap (4.6.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.4.0)
+  - AMapSearch (4.5.0):
+    - AMapFoundation (~> 1.2)
+  - CocoaAsyncSocket (7.6.1)
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - OpenUDID (1.0.0)
+  - SAMKeychain (1.5.2)
+  - UCZProgressView (1.0.2)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - UMengUShare/Core (6.4.4):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.4)
+  - UMengUShare/Social/QQ (6.4.4):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.4):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.4):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.4):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - XMPPFramework (3.7.2):
+    - XMPPFramework/All (= 3.7.2)
+  - XMPPFramework/All (3.7.2):
+    - XMPPFramework/Authentication
+    - XMPPFramework/BandwidthMonitor
+    - XMPPFramework/Categories
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/GoogleSharedStatus
+    - XMPPFramework/ProcessOne
+    - XMPPFramework/Reconnect
+    - XMPPFramework/Roster
+    - XMPPFramework/SystemInputActivityMonitor
+    - XMPPFramework/Utilities
+    - XMPPFramework/XEP-0009
+    - XMPPFramework/XEP-0012
+    - XMPPFramework/XEP-0016
+    - XMPPFramework/XEP-0045
+    - XMPPFramework/XEP-0054
+    - XMPPFramework/XEP-0059
+    - XMPPFramework/XEP-0060
+    - XMPPFramework/XEP-0065
+    - XMPPFramework/XEP-0066
+    - XMPPFramework/XEP-0082
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0092
+    - XMPPFramework/XEP-0100
+    - XMPPFramework/XEP-0106
+    - XMPPFramework/XEP-0115
+    - XMPPFramework/XEP-0136
+    - XMPPFramework/XEP-0153
+    - XMPPFramework/XEP-0172
+    - XMPPFramework/XEP-0184
+    - XMPPFramework/XEP-0191
+    - XMPPFramework/XEP-0198
+    - XMPPFramework/XEP-0199
+    - XMPPFramework/XEP-0202
+    - XMPPFramework/XEP-0203
+    - XMPPFramework/XEP-0223
+    - XMPPFramework/XEP-0224
+    - XMPPFramework/XEP-0280
+    - XMPPFramework/XEP-0297
+    - XMPPFramework/XEP-0308
+    - XMPPFramework/XEP-0333
+    - XMPPFramework/XEP-0335
+  - XMPPFramework/Authentication (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/BandwidthMonitor (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/Categories (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/Core (3.7.2):
+    - CocoaAsyncSocket (~> 7.4)
+    - CocoaLumberjack (~> 1.9)
+    - XMPPFramework/KissXML
+  - XMPPFramework/CoreDataStorage (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/GoogleSharedStatus (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/KissXML (3.7.2)
+  - XMPPFramework/ProcessOne (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/Reconnect (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/Roster (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/Utilities (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0009 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0012 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0016 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0045 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0054 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/Roster
+  - XMPPFramework/XEP-0059 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0060 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0065 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0066 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0082 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0085 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0092 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0100 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0106 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0115 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+  - XMPPFramework/XEP-0136 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0153 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0054
+  - XMPPFramework/XEP-0172 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0184 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0191 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0198 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0199 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0202 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0203 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0223 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0224 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0280 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0297 (3.7.2):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0308 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0333 (3.7.2):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0335 (3.7.2):
+    - XMPPFramework/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZYQAssetPickerController (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AMap2DMap (~> 4.6.0)
+  - AMapSearch (~> 4.5.0)
+  - FMDB (~> 2.6.2)
+  - Masonry (~> 0.6.3)
+  - MBProgressHUD (~> 0.9.2)
+  - OpenUDID (~> 1.0.0)
+  - SAMKeychain
+  - UCZProgressView (~> 1.0.2)
+  - UMengAnalytics-NO-IDFA
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/WeChat
+  - XMPPFramework (from `https://raw.githubusercontent.com/andrey-justo-movile/XMPPFramework/3.7.2/XMPPFramework.podspec.json`)
+  - YYKit (~> 1.0.9)
+  - ZYQAssetPickerController (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  XMPPFramework:
+    :podspec: https://raw.githubusercontent.com/andrey-justo-movile/XMPPFramework/3.7.2/XMPPFramework.podspec.json
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap2DMap: 003fa70526983a1469ae6fc3323a6ee8b5ccf53c
+  AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
+  AMapSearch: 7a6ebc20a42e34a021b042b047f198082fc2fc30
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
+  UCZProgressView: 55836987c15ee6efb7cd6dfe297556602ee46c94
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
+  XMPPFramework: 0552a8536b0af127bac2a6ac00d90ca7bc50c668
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
+
+PODFILE CHECKSUM: e436c3894c7022618ef2039f46e1031fdd398ea5
+
+COCOAPODS: 1.2.1.rc.1

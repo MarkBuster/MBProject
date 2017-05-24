@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BDA8B134B9451EFA4AA6E45 /* libPods-MBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AF01F7A14F4D39C846AF71 /* libPods-MBProject.a */; };
 		D12501A01E85164B00588560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D125019F1E85164B00588560 /* main.m */; };
 		D12501A31E85164B00588560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501A21E85164B00588560 /* AppDelegate.m */; };
 		D12501AB1E85164C00588560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12501AA1E85164C00588560 /* Assets.xcassets */; };
 		D12501AE1E85164C00588560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12501AC1E85164C00588560 /* LaunchScreen.storyboard */; };
 		D12501C41E85188600588560 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501C11E85188600588560 /* BaseViewController.m */; };
 		D12501C51E85188600588560 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501C31E85188600588560 /* NavigationController.m */; };
-		D12501C81E8518E000588560 /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501C71E8518E000588560 /* MainListViewController.m */; };
 		D12501CC1E851E5700588560 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501CB1E851E5700588560 /* UIImage+UIColor.m */; };
-		D12502D61E8526EB00588560 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12502D51E8526EB00588560 /* MapViewController.m */; };
-		D12502DC1E85272F00588560 /* ToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12502DB1E85272F00588560 /* ToolViewController.m */; };
+		D16F8E8A1E960F7A0092D451 /* UIImage+MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F8E891E960F7A0092D451 /* UIImage+MBImage.m */; };
+		D17E14221ECAED3400263F8D /* video_right.png in Resources */ = {isa = PBXBuildFile; fileRef = D17E14211ECAED3400263F8D /* video_right.png */; };
+		D17E14241ECAEE7300263F8D /* video_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D17E14231ECAEE7300263F8D /* video_back.png */; };
+		D1EE601E1ED590F5002E2199 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EE601D1ED590F5002E2199 /* Images.xcassets */; };
+		D1EE60261ED59159002E2199 /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60211ED59159002E2199 /* MainListViewController.m */; };
+		D1EE60271ED59159002E2199 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60231ED59159002E2199 /* MapViewController.m */; };
+		D1EE60281ED59159002E2199 /* ToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60251ED59159002E2199 /* ToolViewController.m */; };
+		D1EE602B1ED5955D002E2199 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE602A1ED5955D002E2199 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08AF01F7A14F4D39C846AF71 /* libPods-MBProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DC4F6BCC842572B9E0B350 /* Pods-MBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProject/Pods-MBProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C52C74590E754448855F7E44 /* Pods-MBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProject/Pods-MBProject.release.xcconfig"; sourceTree = "<group>"; };
 		D125019B1E85164B00588560 /* MBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D125019F1E85164B00588560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D12501A11E85164B00588560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,16 +40,23 @@
 		D12501C11E85188600588560 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		D12501C21E85188600588560 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		D12501C31E85188600588560 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		D12501C61E8518E000588560 /* MainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListViewController.h; sourceTree = "<group>"; };
-		D12501C71E8518E000588560 /* MainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListViewController.m; sourceTree = "<group>"; };
 		D12501CA1E851E5700588560 /* UIImage+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColor.h"; sourceTree = "<group>"; };
 		D12501CB1E851E5700588560 /* UIImage+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColor.m"; sourceTree = "<group>"; };
 		D12501CD1E851F7400588560 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D12502D31E85241F00588560 /* MBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMacro.h; sourceTree = "<group>"; };
-		D12502D41E8526EB00588560 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		D12502D51E8526EB00588560 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		D12502DA1E85272F00588560 /* ToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolViewController.h; sourceTree = "<group>"; };
-		D12502DB1E85272F00588560 /* ToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewController.m; sourceTree = "<group>"; };
+		D16F8E881E960F7A0092D451 /* UIImage+MBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MBImage.h"; sourceTree = "<group>"; };
+		D16F8E891E960F7A0092D451 /* UIImage+MBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MBImage.m"; sourceTree = "<group>"; };
+		D17E14211ECAED3400263F8D /* video_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_right.png; sourceTree = "<group>"; };
+		D17E14231ECAEE7300263F8D /* video_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_back.png; sourceTree = "<group>"; };
+		D1EE601D1ED590F5002E2199 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1EE60201ED59159002E2199 /* MainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListViewController.h; sourceTree = "<group>"; };
+		D1EE60211ED59159002E2199 /* MainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListViewController.m; sourceTree = "<group>"; };
+		D1EE60221ED59159002E2199 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D1EE60231ED59159002E2199 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D1EE60241ED59159002E2199 /* ToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolViewController.h; sourceTree = "<group>"; };
+		D1EE60251ED59159002E2199 /* ToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewController.m; sourceTree = "<group>"; };
+		D1EE60291ED5955D002E2199 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		D1EE602A1ED5955D002E2199 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +64,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDA8B134B9451EFA4AA6E45 /* libPods-MBProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32228FC6D66CB2A58436BB42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08AF01F7A14F4D39C846AF71 /* libPods-MBProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		786C55274665D34921561CEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3DC4F6BCC842572B9E0B350 /* Pods-MBProject.debug.xcconfig */,
+				C52C74590E754448855F7E44 /* Pods-MBProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D12501921E85164B00588560 = {
 			isa = PBXGroup;
 			children = (
 				D125019D1E85164B00588560 /* MBProject */,
 				D125019C1E85164B00588560 /* Products */,
+				786C55274665D34921561CEC /* Pods */,
+				32228FC6D66CB2A58436BB42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,18 +109,16 @@
 		D125019D1E85164B00588560 /* MBProject */ = {
 			isa = PBXGroup;
 			children = (
+				D1EE601F1ED59159002E2199 /* ViewController */,
 				D12501C91E851DD400588560 /* Category */,
 				D12501BF1E85188600588560 /* Base */,
 				D12501A11E85164B00588560 /* AppDelegate.h */,
 				D12501A21E85164B00588560 /* AppDelegate.m */,
-				D12501C61E8518E000588560 /* MainListViewController.h */,
-				D12501C71E8518E000588560 /* MainListViewController.m */,
-				D12502D41E8526EB00588560 /* MapViewController.h */,
-				D12502D51E8526EB00588560 /* MapViewController.m */,
-				D12502DA1E85272F00588560 /* ToolViewController.h */,
-				D12502DB1E85272F00588560 /* ToolViewController.m */,
+				D17E14231ECAEE7300263F8D /* video_back.png */,
+				D17E14211ECAED3400263F8D /* video_right.png */,
 				D12502D31E85241F00588560 /* MBMacro.h */,
 				D12501CD1E851F7400588560 /* PrefixHeader.pch */,
+				D1EE601D1ED590F5002E2199 /* Images.xcassets */,
 				D12501AA1E85164C00588560 /* Assets.xcassets */,
 				D12501AC1E85164C00588560 /* LaunchScreen.storyboard */,
 				D12501AF1E85164C00588560 /* Info.plist */,
@@ -115,10 +149,27 @@
 		D12501C91E851DD400588560 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D16F8E881E960F7A0092D451 /* UIImage+MBImage.h */,
+				D16F8E891E960F7A0092D451 /* UIImage+MBImage.m */,
 				D12501CA1E851E5700588560 /* UIImage+UIColor.h */,
 				D12501CB1E851E5700588560 /* UIImage+UIColor.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		D1EE601F1ED59159002E2199 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1EE60291ED5955D002E2199 /* AViewController.h */,
+				D1EE602A1ED5955D002E2199 /* AViewController.m */,
+				D1EE60201ED59159002E2199 /* MainListViewController.h */,
+				D1EE60211ED59159002E2199 /* MainListViewController.m */,
+				D1EE60221ED59159002E2199 /* MapViewController.h */,
+				D1EE60231ED59159002E2199 /* MapViewController.m */,
+				D1EE60241ED59159002E2199 /* ToolViewController.h */,
+				D1EE60251ED59159002E2199 /* ToolViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12501B21E85164C00588560 /* Build configuration list for PBXNativeTarget "MBProject" */;
 			buildPhases = (
+				72E2015F4C1039081213263F /* [CP] Check Pods Manifest.lock */,
 				D12501971E85164B00588560 /* Sources */,
 				D12501981E85164B00588560 /* Frameworks */,
 				D12501991E85164B00588560 /* Resources */,
+				8FD65776B77918BE0B25222B /* [CP] Embed Pods Frameworks */,
+				1DC165017AF8929225AD6979 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17E14241ECAEE7300263F8D /* video_back.png in Resources */,
+				D1EE601E1ED590F5002E2199 /* Images.xcassets in Resources */,
+				D17E14221ECAED3400263F8D /* video_right.png in Resources */,
 				D12501AE1E85164C00588560 /* LaunchScreen.storyboard in Resources */,
 				D12501AB1E85164C00588560 /* Assets.xcassets in Resources */,
 			);
@@ -187,19 +244,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DC165017AF8929225AD6979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProject/Pods-MBProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E2015F4C1039081213263F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD65776B77918BE0B25222B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProject/Pods-MBProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D12501971E85164B00588560 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EE60281ED59159002E2199 /* ToolViewController.m in Sources */,
 				D12501A31E85164B00588560 /* AppDelegate.m in Sources */,
+				D16F8E8A1E960F7A0092D451 /* UIImage+MBImage.m in Sources */,
 				D12501C41E85188600588560 /* BaseViewController.m in Sources */,
+				D1EE60271ED59159002E2199 /* MapViewController.m in Sources */,
+				D1EE60261ED59159002E2199 /* MainListViewController.m in Sources */,
+				D1EE602B1ED5955D002E2199 /* AViewController.m in Sources */,
 				D12501C51E85188600588560 /* NavigationController.m in Sources */,
 				D12501A01E85164B00588560 /* main.m in Sources */,
-				D12502DC1E85272F00588560 /* ToolViewController.m in Sources */,
-				D12501C81E8518E000588560 /* MainListViewController.m in Sources */,
 				D12501CC1E851E5700588560 /* UIImage+UIColor.m in Sources */,
-				D12502D61E8526EB00588560 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +414,11 @@
 		};
 		D12501B31E85164C00588560 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DC4F6BCC842572B9E0B350 /* Pods-MBProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4JZRR82F52;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = MBProject/PrefixHeader.pch;
 				INFOPLIST_FILE = MBProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -321,9 +430,11 @@
 		};
 		D12501B41E85164C00588560 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52C74590E754448855F7E44 /* Pods-MBProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4JZRR82F52;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = MBProject/PrefixHeader.pch;
 				INFOPLIST_FILE = MBProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
