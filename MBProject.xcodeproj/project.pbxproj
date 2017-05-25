@@ -12,17 +12,22 @@
 		D12501A31E85164B00588560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501A21E85164B00588560 /* AppDelegate.m */; };
 		D12501AB1E85164C00588560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12501AA1E85164C00588560 /* Assets.xcassets */; };
 		D12501AE1E85164C00588560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12501AC1E85164C00588560 /* LaunchScreen.storyboard */; };
-		D12501C41E85188600588560 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501C11E85188600588560 /* BaseViewController.m */; };
-		D12501C51E85188600588560 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501C31E85188600588560 /* NavigationController.m */; };
-		D12501CC1E851E5700588560 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501CB1E851E5700588560 /* UIImage+UIColor.m */; };
-		D16F8E8A1E960F7A0092D451 /* UIImage+MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F8E891E960F7A0092D451 /* UIImage+MBImage.m */; };
 		D17E14221ECAED3400263F8D /* video_right.png in Resources */ = {isa = PBXBuildFile; fileRef = D17E14211ECAED3400263F8D /* video_right.png */; };
 		D17E14241ECAEE7300263F8D /* video_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D17E14231ECAEE7300263F8D /* video_back.png */; };
 		D1EE601E1ED590F5002E2199 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EE601D1ED590F5002E2199 /* Images.xcassets */; };
-		D1EE60261ED59159002E2199 /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60211ED59159002E2199 /* MainListViewController.m */; };
-		D1EE60271ED59159002E2199 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60231ED59159002E2199 /* MapViewController.m */; };
-		D1EE60281ED59159002E2199 /* ToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60251ED59159002E2199 /* ToolViewController.m */; };
-		D1EE602B1ED5955D002E2199 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE602A1ED5955D002E2199 /* AViewController.m */; };
+		D1EE606B1ED6E454002E2199 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE604D1ED6E454002E2199 /* BaseViewController.m */; };
+		D1EE606C1ED6E454002E2199 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE604F1ED6E454002E2199 /* NavigationController.m */; };
+		D1EE606D1ED6E454002E2199 /* UIImage+MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60521ED6E454002E2199 /* UIImage+MBImage.m */; };
+		D1EE606E1ED6E454002E2199 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60541ED6E454002E2199 /* UIImage+UIColor.m */; };
+		D1EE606F1ED6E454002E2199 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60571ED6E454002E2199 /* LoginViewController.m */; };
+		D1EE60701ED6E454002E2199 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE60581ED6E454002E2199 /* LoginViewController.xib */; };
+		D1EE60711ED6E454002E2199 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE605B1ED6E454002E2199 /* Tools.m */; };
+		D1EE60721ED6E454002E2199 /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE605F1ED6E454002E2199 /* XMPPManager.m */; };
+		D1EE60731ED6E454002E2199 /* XMPPMessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60611ED6E454002E2199 /* XMPPMessageModule.m */; };
+		D1EE60741ED6E454002E2199 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60641ED6E454002E2199 /* AViewController.m */; };
+		D1EE60751ED6E454002E2199 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60661ED6E454002E2199 /* MapViewController.m */; };
+		D1EE60761ED6E454002E2199 /* MessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60681ED6E454002E2199 /* MessageListViewController.m */; };
+		D1EE60771ED6E454002E2199 /* ToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE606A1ED6E454002E2199 /* ToolViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,27 +41,37 @@
 		D12501AA1E85164C00588560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D12501AD1E85164C00588560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D12501AF1E85164C00588560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D12501C01E85188600588560 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		D12501C11E85188600588560 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		D12501C21E85188600588560 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		D12501C31E85188600588560 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		D12501CA1E851E5700588560 /* UIImage+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColor.h"; sourceTree = "<group>"; };
-		D12501CB1E851E5700588560 /* UIImage+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColor.m"; sourceTree = "<group>"; };
 		D12501CD1E851F7400588560 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D12502D31E85241F00588560 /* MBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMacro.h; sourceTree = "<group>"; };
-		D16F8E881E960F7A0092D451 /* UIImage+MBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MBImage.h"; sourceTree = "<group>"; };
-		D16F8E891E960F7A0092D451 /* UIImage+MBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MBImage.m"; sourceTree = "<group>"; };
 		D17E14211ECAED3400263F8D /* video_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_right.png; sourceTree = "<group>"; };
 		D17E14231ECAEE7300263F8D /* video_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_back.png; sourceTree = "<group>"; };
 		D1EE601D1ED590F5002E2199 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D1EE60201ED59159002E2199 /* MainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListViewController.h; sourceTree = "<group>"; };
-		D1EE60211ED59159002E2199 /* MainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListViewController.m; sourceTree = "<group>"; };
-		D1EE60221ED59159002E2199 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		D1EE60231ED59159002E2199 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		D1EE60241ED59159002E2199 /* ToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolViewController.h; sourceTree = "<group>"; };
-		D1EE60251ED59159002E2199 /* ToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewController.m; sourceTree = "<group>"; };
-		D1EE60291ED5955D002E2199 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		D1EE602A1ED5955D002E2199 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		D1EE60351ED66F9F002E2199 /* MBToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBToolMacro.h; sourceTree = "<group>"; };
+		D1EE604C1ED6E454002E2199 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D1EE604D1ED6E454002E2199 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D1EE604E1ED6E454002E2199 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		D1EE604F1ED6E454002E2199 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		D1EE60511ED6E454002E2199 /* UIImage+MBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MBImage.h"; sourceTree = "<group>"; };
+		D1EE60521ED6E454002E2199 /* UIImage+MBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MBImage.m"; sourceTree = "<group>"; };
+		D1EE60531ED6E454002E2199 /* UIImage+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColor.h"; sourceTree = "<group>"; };
+		D1EE60541ED6E454002E2199 /* UIImage+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColor.m"; sourceTree = "<group>"; };
+		D1EE60561ED6E454002E2199 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D1EE60571ED6E454002E2199 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D1EE60581ED6E454002E2199 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D1EE605A1ED6E454002E2199 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		D1EE605B1ED6E454002E2199 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		D1EE605E1ED6E454002E2199 /* XMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
+		D1EE605F1ED6E454002E2199 /* XMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
+		D1EE60601ED6E454002E2199 /* XMPPMessageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPMessageModule.h; sourceTree = "<group>"; };
+		D1EE60611ED6E454002E2199 /* XMPPMessageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPMessageModule.m; sourceTree = "<group>"; };
+		D1EE60631ED6E454002E2199 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		D1EE60641ED6E454002E2199 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		D1EE60651ED6E454002E2199 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D1EE60661ED6E454002E2199 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D1EE60671ED6E454002E2199 /* MessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListViewController.h; sourceTree = "<group>"; };
+		D1EE60681ED6E454002E2199 /* MessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListViewController.m; sourceTree = "<group>"; };
+		D1EE60691ED6E454002E2199 /* ToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolViewController.h; sourceTree = "<group>"; };
+		D1EE606A1ED6E454002E2199 /* ToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,14 +124,18 @@
 		D125019D1E85164B00588560 /* MBProject */ = {
 			isa = PBXGroup;
 			children = (
-				D1EE601F1ED59159002E2199 /* ViewController */,
-				D12501C91E851DD400588560 /* Category */,
-				D12501BF1E85188600588560 /* Base */,
+				D1EE604B1ED6E454002E2199 /* Base */,
+				D1EE60501ED6E454002E2199 /* Category */,
+				D1EE60551ED6E454002E2199 /* CommonFunctionModule */,
+				D1EE60591ED6E454002E2199 /* Global */,
+				D1EE605C1ED6E454002E2199 /* Manager */,
+				D1EE60621ED6E454002E2199 /* ViewController */,
 				D12501A11E85164B00588560 /* AppDelegate.h */,
 				D12501A21E85164B00588560 /* AppDelegate.m */,
 				D17E14231ECAEE7300263F8D /* video_back.png */,
 				D17E14211ECAED3400263F8D /* video_right.png */,
 				D12502D31E85241F00588560 /* MBMacro.h */,
+				D1EE60351ED66F9F002E2199 /* MBToolMacro.h */,
 				D12501CD1E851F7400588560 /* PrefixHeader.pch */,
 				D1EE601D1ED590F5002E2199 /* Images.xcassets */,
 				D12501AA1E85164C00588560 /* Assets.xcassets */,
@@ -135,39 +154,77 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D12501BF1E85188600588560 /* Base */ = {
+		D1EE604B1ED6E454002E2199 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D12501C01E85188600588560 /* BaseViewController.h */,
-				D12501C11E85188600588560 /* BaseViewController.m */,
-				D12501C21E85188600588560 /* NavigationController.h */,
-				D12501C31E85188600588560 /* NavigationController.m */,
+				D1EE604C1ED6E454002E2199 /* BaseViewController.h */,
+				D1EE604D1ED6E454002E2199 /* BaseViewController.m */,
+				D1EE604E1ED6E454002E2199 /* NavigationController.h */,
+				D1EE604F1ED6E454002E2199 /* NavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		D12501C91E851DD400588560 /* Category */ = {
+		D1EE60501ED6E454002E2199 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				D16F8E881E960F7A0092D451 /* UIImage+MBImage.h */,
-				D16F8E891E960F7A0092D451 /* UIImage+MBImage.m */,
-				D12501CA1E851E5700588560 /* UIImage+UIColor.h */,
-				D12501CB1E851E5700588560 /* UIImage+UIColor.m */,
+				D1EE60511ED6E454002E2199 /* UIImage+MBImage.h */,
+				D1EE60521ED6E454002E2199 /* UIImage+MBImage.m */,
+				D1EE60531ED6E454002E2199 /* UIImage+UIColor.h */,
+				D1EE60541ED6E454002E2199 /* UIImage+UIColor.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		D1EE601F1ED59159002E2199 /* ViewController */ = {
+		D1EE60551ED6E454002E2199 /* CommonFunctionModule */ = {
 			isa = PBXGroup;
 			children = (
-				D1EE60291ED5955D002E2199 /* AViewController.h */,
-				D1EE602A1ED5955D002E2199 /* AViewController.m */,
-				D1EE60201ED59159002E2199 /* MainListViewController.h */,
-				D1EE60211ED59159002E2199 /* MainListViewController.m */,
-				D1EE60221ED59159002E2199 /* MapViewController.h */,
-				D1EE60231ED59159002E2199 /* MapViewController.m */,
-				D1EE60241ED59159002E2199 /* ToolViewController.h */,
-				D1EE60251ED59159002E2199 /* ToolViewController.m */,
+				D1EE60561ED6E454002E2199 /* LoginViewController.h */,
+				D1EE60571ED6E454002E2199 /* LoginViewController.m */,
+				D1EE60581ED6E454002E2199 /* LoginViewController.xib */,
+			);
+			path = CommonFunctionModule;
+			sourceTree = "<group>";
+		};
+		D1EE60591ED6E454002E2199 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D1EE605A1ED6E454002E2199 /* Tools.h */,
+				D1EE605B1ED6E454002E2199 /* Tools.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D1EE605C1ED6E454002E2199 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D1EE605D1ED6E454002E2199 /* XMPP */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D1EE605D1ED6E454002E2199 /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+				D1EE605E1ED6E454002E2199 /* XMPPManager.h */,
+				D1EE605F1ED6E454002E2199 /* XMPPManager.m */,
+				D1EE60601ED6E454002E2199 /* XMPPMessageModule.h */,
+				D1EE60611ED6E454002E2199 /* XMPPMessageModule.m */,
+			);
+			path = XMPP;
+			sourceTree = "<group>";
+		};
+		D1EE60621ED6E454002E2199 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1EE60631ED6E454002E2199 /* AViewController.h */,
+				D1EE60641ED6E454002E2199 /* AViewController.m */,
+				D1EE60651ED6E454002E2199 /* MapViewController.h */,
+				D1EE60661ED6E454002E2199 /* MapViewController.m */,
+				D1EE60671ED6E454002E2199 /* MessageListViewController.h */,
+				D1EE60681ED6E454002E2199 /* MessageListViewController.m */,
+				D1EE60691ED6E454002E2199 /* ToolViewController.h */,
+				D1EE606A1ED6E454002E2199 /* ToolViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -236,6 +293,7 @@
 			files = (
 				D17E14241ECAEE7300263F8D /* video_back.png in Resources */,
 				D1EE601E1ED590F5002E2199 /* Images.xcassets in Resources */,
+				D1EE60701ED6E454002E2199 /* LoginViewController.xib in Resources */,
 				D17E14221ECAED3400263F8D /* video_right.png in Resources */,
 				D12501AE1E85164C00588560 /* LaunchScreen.storyboard in Resources */,
 				D12501AB1E85164C00588560 /* Assets.xcassets in Resources */,
@@ -297,16 +355,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EE60281ED59159002E2199 /* ToolViewController.m in Sources */,
+				D1EE60731ED6E454002E2199 /* XMPPMessageModule.m in Sources */,
 				D12501A31E85164B00588560 /* AppDelegate.m in Sources */,
-				D16F8E8A1E960F7A0092D451 /* UIImage+MBImage.m in Sources */,
-				D12501C41E85188600588560 /* BaseViewController.m in Sources */,
-				D1EE60271ED59159002E2199 /* MapViewController.m in Sources */,
-				D1EE60261ED59159002E2199 /* MainListViewController.m in Sources */,
-				D1EE602B1ED5955D002E2199 /* AViewController.m in Sources */,
-				D12501C51E85188600588560 /* NavigationController.m in Sources */,
+				D1EE60771ED6E454002E2199 /* ToolViewController.m in Sources */,
+				D1EE60741ED6E454002E2199 /* AViewController.m in Sources */,
+				D1EE60751ED6E454002E2199 /* MapViewController.m in Sources */,
+				D1EE60761ED6E454002E2199 /* MessageListViewController.m in Sources */,
+				D1EE606C1ED6E454002E2199 /* NavigationController.m in Sources */,
+				D1EE606B1ED6E454002E2199 /* BaseViewController.m in Sources */,
+				D1EE60711ED6E454002E2199 /* Tools.m in Sources */,
 				D12501A01E85164B00588560 /* main.m in Sources */,
-				D12501CC1E851E5700588560 /* UIImage+UIColor.m in Sources */,
+				D1EE60721ED6E454002E2199 /* XMPPManager.m in Sources */,
+				D1EE606F1ED6E454002E2199 /* LoginViewController.m in Sources */,
+				D1EE606D1ED6E454002E2199 /* UIImage+MBImage.m in Sources */,
+				D1EE606E1ED6E454002E2199 /* UIImage+UIColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +485,7 @@
 				INFOPLIST_FILE = MBProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dombo.MBProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.znt.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,7 +501,7 @@
 				INFOPLIST_FILE = MBProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dombo.MBProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.znt.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

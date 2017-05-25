@@ -21,7 +21,7 @@
         self.delegate = self;
     }
     UIImage *image = nil;
-    if (kiOS7) {
+    if (kiOS7Later) {
         image =[UIColor whiteColor].image;
     } else {
         image =[UIColor whiteColor].image;
@@ -51,7 +51,7 @@
 
 - (void)configTabBarImage
 {
-    if (kiOS7) {
+    if (kiOS7Later) {
         self.tabBarItem.selectedImage=[[UIImage imageNamed:_tabBarItemSeletectedImageName]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         self.tabBarItem.image=[[UIImage imageNamed:_tabBarItemUnSeletectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }else {

@@ -7,7 +7,7 @@
 //
 
 #import "ToolViewController.h"
-#import "AViewController.h"
+#import "LoginViewController.h"
 @interface ToolViewController ()
 
 @end
@@ -31,7 +31,7 @@
 }
 
 - (void)click {
-    AViewController *Avc = [[AViewController alloc] init];
+    LoginViewController *Avc = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
     [self.navigationController pushViewController:Avc animated:YES];
 }
  

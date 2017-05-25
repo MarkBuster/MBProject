@@ -11,5 +11,8 @@
 
 #import "UIImage+UIColor.h"
 #import "MBMacro.h"
+#import "MBToolMacro.h"
+#import "Tools.h"
+#import <YYKit.h>
 
 #endif /* PrefixHeader_pch */

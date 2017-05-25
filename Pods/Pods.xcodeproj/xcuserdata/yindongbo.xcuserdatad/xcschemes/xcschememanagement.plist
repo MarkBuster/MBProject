@@ -44,12 +44,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SAMKeychain.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UCZProgressView.xcscheme</key>
+		<key>XMLDictionary.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -77,6 +72,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>199E7DC1E53B927DC5E52A208E08B52B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>23D7DA26C40DEA0CBB49A7825C7CD4F1</key>
 		<dict>
 			<key>primary</key>
@@ -87,32 +87,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4FFA04A5A17D56C1FBE225C05843064B</key>
+		<key>3447FFF650B60DDB6E4484C8732868F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57DABB2445B6E53349D6645B3275D561</key>
+		<key>4F503B32A4E8E034C8BDD9715852CCE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A7E8ACAA8D848B1899D9A82DF0268FC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5CA70266A811114B7B3D830C0645E247</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>83449127FF0F90132C042F31193684F8</key>
+		<key>56C2400E5371171F19419415FCCA7216</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8784F05858AED3AD2C8D5A105CB3D34E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -123,11 +118,6 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B862805E1CBF3490B1FA59317D183422</key>
 		<dict>
 			<key>primary</key>
 			<true/>

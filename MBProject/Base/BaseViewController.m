@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if (kiOS7) {
+    if (kiOS7Later) {
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
     [self createNavigationBarUI];

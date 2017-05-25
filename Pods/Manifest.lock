@@ -31,22 +31,7 @@ PODS:
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - OpenUDID (1.0.0)
-  - SAMKeychain (1.5.2)
-  - UCZProgressView (1.0.2)
-  - UMengAnalytics-NO-IDFA (4.2.5)
-  - UMengUShare/Core (6.4.4):
-    - UMengUShare/Network
-  - UMengUShare/Network (6.4.4)
-  - UMengUShare/Social/QQ (6.4.4):
-    - UMengUShare/Core
-    - UMengUShare/Social/ReducedQQ
-  - UMengUShare/Social/ReducedQQ (6.4.4):
-    - UMengUShare/Core
-  - UMengUShare/Social/ReducedWeChat (6.4.4):
-    - UMengUShare/Core
-  - UMengUShare/Social/WeChat (6.4.4):
-    - UMengUShare/Core
-    - UMengUShare/Social/ReducedWeChat
+  - XMLDictionary (1.4.1)
   - XMPPFramework (3.7.2):
     - XMPPFramework/All (= 3.7.2)
   - XMPPFramework/All (3.7.2):
@@ -202,11 +187,7 @@ DEPENDENCIES:
   - Masonry (~> 0.6.3)
   - MBProgressHUD (~> 0.9.2)
   - OpenUDID (~> 1.0.0)
-  - SAMKeychain
-  - UCZProgressView (~> 1.0.2)
-  - UMengAnalytics-NO-IDFA
-  - UMengUShare/Social/QQ
-  - UMengUShare/Social/WeChat
+  - XMLDictionary (~> 1.4)
   - XMPPFramework (from `https://raw.githubusercontent.com/andrey-justo-movile/XMPPFramework/3.7.2/XMPPFramework.podspec.json`)
   - YYKit (~> 1.0.9)
   - ZYQAssetPickerController (~> 1.0.0)
@@ -226,14 +207,11 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
-  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
-  UCZProgressView: 55836987c15ee6efb7cd6dfe297556602ee46c94
-  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
-  UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
   XMPPFramework: 0552a8536b0af127bac2a6ac00d90ca7bc50c668
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
 
-PODFILE CHECKSUM: e436c3894c7022618ef2039f46e1031fdd398ea5
+PODFILE CHECKSUM: 741dde9be5ab8ff8a7464c42a9cd3bea57db09cc
 
 COCOAPODS: 1.2.1.rc.1
