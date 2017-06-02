@@ -13,7 +13,7 @@
 #import "ToolViewController.h"
 #import "LoginViewController.h"
 
-#import "XMPPManager.h"
+#import "MBXMPPManager.h"
 @interface AppDelegate ()<
 UITabBarControllerDelegate
 >
@@ -86,7 +86,7 @@ UITabBarControllerDelegate
 
 - (void)pushToMainVC {
     
-    [[XMPPManager sharedManager] connect];
+    [[MBXMPPManager sharedManager] connect];
     
     MessageListViewController *mainListVC =[MessageListViewController new];
     NavigationController *nav1 = [[NavigationController alloc] initWithRootViewController:mainListVC];

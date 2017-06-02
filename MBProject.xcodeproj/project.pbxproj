@@ -22,12 +22,12 @@
 		D1EE606F1ED6E454002E2199 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60571ED6E454002E2199 /* LoginViewController.m */; };
 		D1EE60701ED6E454002E2199 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE60581ED6E454002E2199 /* LoginViewController.xib */; };
 		D1EE60711ED6E454002E2199 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE605B1ED6E454002E2199 /* Tools.m */; };
-		D1EE60721ED6E454002E2199 /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE605F1ED6E454002E2199 /* XMPPManager.m */; };
-		D1EE60731ED6E454002E2199 /* XMPPMessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60611ED6E454002E2199 /* XMPPMessageModule.m */; };
 		D1EE60741ED6E454002E2199 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60641ED6E454002E2199 /* AViewController.m */; };
 		D1EE60751ED6E454002E2199 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60661ED6E454002E2199 /* MapViewController.m */; };
 		D1EE60761ED6E454002E2199 /* MessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60681ED6E454002E2199 /* MessageListViewController.m */; };
 		D1EE60771ED6E454002E2199 /* ToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE606A1ED6E454002E2199 /* ToolViewController.m */; };
+		D1EE60851ED927E0002E2199 /* MBXMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60841ED927E0002E2199 /* MBXMPPManager.m */; };
+		D1EE60881ED9420C002E2199 /* MBXMPPMessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE60871ED9420C002E2199 /* MBXMPPMessageModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,10 +60,6 @@
 		D1EE60581ED6E454002E2199 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D1EE605A1ED6E454002E2199 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		D1EE605B1ED6E454002E2199 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
-		D1EE605E1ED6E454002E2199 /* XMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
-		D1EE605F1ED6E454002E2199 /* XMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
-		D1EE60601ED6E454002E2199 /* XMPPMessageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPMessageModule.h; sourceTree = "<group>"; };
-		D1EE60611ED6E454002E2199 /* XMPPMessageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPMessageModule.m; sourceTree = "<group>"; };
 		D1EE60631ED6E454002E2199 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		D1EE60641ED6E454002E2199 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		D1EE60651ED6E454002E2199 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -72,6 +68,10 @@
 		D1EE60681ED6E454002E2199 /* MessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListViewController.m; sourceTree = "<group>"; };
 		D1EE60691ED6E454002E2199 /* ToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolViewController.h; sourceTree = "<group>"; };
 		D1EE606A1ED6E454002E2199 /* ToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewController.m; sourceTree = "<group>"; };
+		D1EE60831ED927E0002E2199 /* MBXMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXMPPManager.h; sourceTree = "<group>"; };
+		D1EE60841ED927E0002E2199 /* MBXMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXMPPManager.m; sourceTree = "<group>"; };
+		D1EE60861ED9420C002E2199 /* MBXMPPMessageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXMPPMessageModule.h; sourceTree = "<group>"; };
+		D1EE60871ED9420C002E2199 /* MBXMPPMessageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXMPPMessageModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,10 +206,10 @@
 		D1EE605D1ED6E454002E2199 /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
-				D1EE605E1ED6E454002E2199 /* XMPPManager.h */,
-				D1EE605F1ED6E454002E2199 /* XMPPManager.m */,
-				D1EE60601ED6E454002E2199 /* XMPPMessageModule.h */,
-				D1EE60611ED6E454002E2199 /* XMPPMessageModule.m */,
+				D1EE60831ED927E0002E2199 /* MBXMPPManager.h */,
+				D1EE60841ED927E0002E2199 /* MBXMPPManager.m */,
+				D1EE60861ED9420C002E2199 /* MBXMPPMessageModule.h */,
+				D1EE60871ED9420C002E2199 /* MBXMPPMessageModule.m */,
 			);
 			path = XMPP;
 			sourceTree = "<group>";
@@ -355,20 +355,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EE60731ED6E454002E2199 /* XMPPMessageModule.m in Sources */,
 				D12501A31E85164B00588560 /* AppDelegate.m in Sources */,
 				D1EE60771ED6E454002E2199 /* ToolViewController.m in Sources */,
 				D1EE60741ED6E454002E2199 /* AViewController.m in Sources */,
 				D1EE60751ED6E454002E2199 /* MapViewController.m in Sources */,
 				D1EE60761ED6E454002E2199 /* MessageListViewController.m in Sources */,
+				D1EE60851ED927E0002E2199 /* MBXMPPManager.m in Sources */,
 				D1EE606C1ED6E454002E2199 /* NavigationController.m in Sources */,
 				D1EE606B1ED6E454002E2199 /* BaseViewController.m in Sources */,
 				D1EE60711ED6E454002E2199 /* Tools.m in Sources */,
 				D12501A01E85164B00588560 /* main.m in Sources */,
-				D1EE60721ED6E454002E2199 /* XMPPManager.m in Sources */,
 				D1EE606F1ED6E454002E2199 /* LoginViewController.m in Sources */,
 				D1EE606D1ED6E454002E2199 /* UIImage+MBImage.m in Sources */,
 				D1EE606E1ED6E454002E2199 /* UIImage+UIColor.m in Sources */,
+				D1EE60881ED9420C002E2199 /* MBXMPPMessageModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

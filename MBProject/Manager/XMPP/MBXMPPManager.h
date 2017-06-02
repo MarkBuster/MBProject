@@ -11,11 +11,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XMPPManager : NSObject<
+@interface MBXMPPManager : NSObject<
 UIApplicationDelegate
 >
 
-+ (XMPPManager *)sharedManager;
++ (MBXMPPManager *)sharedManager;
 
 #pragma mark -------连接相关-----------
 - (BOOL)connect;

@@ -6,18 +6,17 @@
 //  Copyright © 2017年 Dombo. All rights reserved.
 //
 
-#import "XMPPManager.h"
+#import "MBXMPPManager.h"
 #import <AudioToolbox/AudioToolbox.h>
-#import "XMPPManager.h"
 #import <XMPPPing.h>
 #import <XMPPReconnect.h>
 #import <XMPPStream.h>
 #import <NSXMLElement+XEP_0203.h>
 
-#import "XMPPMessageModule.h"
+//#import "XMPPMessageModule.h"
 
-
-@interface XMPPManager()<
+@class XMPPMessageModule;
+@interface MBXMPPManager()<
 XMPPStreamDelegate
 >{
     NSString *_password;//O_F 登录密码
@@ -33,12 +32,12 @@ XMPPStreamDelegate
 
 @end
 
-static XMPPManager *sharedManager = nil;
-@implementation XMPPManager
-+ (XMPPManager *)sharedManager {
+static MBXMPPManager *sharedManager = nil;
+@implementation MBXMPPManager
++ (MBXMPPManager *)sharedManager {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedManager = [XMPPManager new];
+        sharedManager = [MBXMPPManager new];
         [sharedManager setupStream];
     });
     return sharedManager;
@@ -65,14 +64,14 @@ static XMPPManager *sharedManager = nil;
     
     // 通讯录数据库容器
     // 消息数据库容器
-    _xmppMessageModule = [[XMPPMessageModule alloc] initWithDispatchQueue:dispatch_get_main_queue()];
-    [_xmppMessageModule activate:_xmppStream];
+//    _xmppMessageModule = [[XMPPMessageModule alloc] initWithDispatchQueue:dispatch_get_main_queue()];
+//    [_xmppMessageModule activate:_xmppStream];
     // 消息处理
     
     // 激活xmpp 模块
     [_xmppReconnect activate:_xmppStream];
     [_xmppPing activate:_xmppStream];
-    [_xmppMessageModule activate:_xmppStream];
+//    [_xmppMessageModule activate:_xmppStream];
     
     
     [_xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
