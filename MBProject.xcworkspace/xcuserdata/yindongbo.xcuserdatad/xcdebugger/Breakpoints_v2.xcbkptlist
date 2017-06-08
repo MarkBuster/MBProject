@@ -41,13 +41,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MBProject/Global/Tools.m"
-            timestampString = "517387053.174494"
+            filePath = "MBProject/Manager/XMPP/MBXMPPMessageModule.m"
+            timestampString = "518166064.489641"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "+decodeBase64:"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-xmppStream:didReceiveMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MBProject/Manager/XMPP/MBXMPPModule.m"
+            timestampString = "518170879.534652"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "-xmppStream:didSendMessage:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

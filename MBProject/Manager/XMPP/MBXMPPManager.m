@@ -13,9 +13,8 @@
 #import <XMPPStream.h>
 #import <NSXMLElement+XEP_0203.h>
 
-//#import "XMPPMessageModule.h"
-
-@class XMPPMessageModule;
+//#import "MBXMPPMessageModule.h"
+#import "MBXMPPModule.h"
 @interface MBXMPPManager()<
 XMPPStreamDelegate
 >{
@@ -28,7 +27,8 @@ XMPPStreamDelegate
 @property (nonatomic, strong) XMPPPing *xmppPing;
 @property (nonatomic, strong) XMPPStream *xmppStream;
 @property (nonatomic, strong) XMPPReconnect *xmppReconnect;
-@property (nonatomic, strong) XMPPMessageModule *xmppMessageModule;
+//@property (nonatomic, strong) MBXMPPMessageModule *xmppMessageModule;
+@property (nonatomic, strong) MBXMPPModule *xmppModule;
 
 @end
 
@@ -64,15 +64,17 @@ static MBXMPPManager *sharedManager = nil;
     
     // 通讯录数据库容器
     // 消息数据库容器
-//    _xmppMessageModule = [[XMPPMessageModule alloc] initWithDispatchQueue:dispatch_get_main_queue()];
+//    _xmppMessageModule = [[MBXMPPMessageModule alloc] initWithDispatchQueue:dispatch_get_main_queue()];
 //    [_xmppMessageModule activate:_xmppStream];
+    _xmppModule = [[MBXMPPModule alloc] initWithDispatchQueue:dispatch_get_main_queue()];
+    [_xmppModule activate:_xmppStream];
     // 消息处理
     
     // 激活xmpp 模块
     [_xmppReconnect activate:_xmppStream];
     [_xmppPing activate:_xmppStream];
 //    [_xmppMessageModule activate:_xmppStream];
-    
+    [_xmppModule activate:_xmppStream];
     
     [_xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
     [_xmppPing addDelegate:self delegateQueue:dispatch_get_main_queue()];
@@ -297,13 +299,13 @@ static MBXMPPManager *sharedManager = nil;
 #pragma mark XMPPPing Delegate
 - (void)xmppPing:(XMPPPing *)sender didReceivePong:(XMPPIQ *)pong withRTT:(NSTimeInterval)rtt{
     NSLog(@"didReceivePong:(XMPPIQ *)pong=%@",[pong XMLString]);
-    NSDictionary *_dict=[NSDictionary dictionaryWithObjectsAndKeys:NSLocalizedString(@"MyMessage", @"MyMessage"),@"MyMessage",[NSNumber numberWithBool:YES],@"DidConnect", nil];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"RECEIVE_DELAYED_MESSAGE" object:_dict];
+    NSDictionary *_dict = [NSDictionary dictionaryWithObjectsAndKeys:NSLocalizedString(@"MyMessage", @"MyMessage"),@"MyMessage",[NSNumber numberWithBool:YES],@"DidConnect", nil];
+    [[NSNotificationCenter defaultCenter] postNotificationName:RECEIVE_DELAYED_MESSAGE object:_dict];
 }
 
 - (void)xmppPing:(XMPPPing *)sender didNotReceivePong:(NSString *)pingID dueToTimeout:(NSTimeInterval)timeout{
     NSLog(@"didNotReceivePong:(NSString *)pingID=%@",pingID);
-    NSDictionary *_dict=[NSDictionary dictionaryWithObjectsAndKeys:NSLocalizedString(@"DisConnected", nil),@"MyMessage",[NSNumber numberWithBool:NO],@"DidConnect", nil];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"RECEIVE_DELAYED_MESSAGE" object:_dict];
+    NSDictionary *_dict = [NSDictionary dictionaryWithObjectsAndKeys:NSLocalizedString(@"DisConnected", nil),@"MyMessage",[NSNumber numberWithBool:NO],@"DidConnect", nil];
+    [[NSNotificationCenter defaultCenter] postNotificationName:RECEIVE_DELAYED_MESSAGE object:_dict];
 }
 @end

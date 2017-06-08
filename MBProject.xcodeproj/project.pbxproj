@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0BDA8B134B9451EFA4AA6E45 /* libPods-MBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AF01F7A14F4D39C846AF71 /* libPods-MBProject.a */; };
+		D109C6E21EE8FA6A0040632A /* MBToolsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D109C6E11EE8FA6A0040632A /* MBToolsManager.m */; };
 		D12501A01E85164B00588560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D125019F1E85164B00588560 /* main.m */; };
 		D12501A31E85164B00588560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D12501A21E85164B00588560 /* AppDelegate.m */; };
 		D12501AB1E85164C00588560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12501AA1E85164C00588560 /* Assets.xcassets */; };
 		D12501AE1E85164C00588560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12501AC1E85164C00588560 /* LaunchScreen.storyboard */; };
+		D16119021EE297ED0092B59B /* MBXMPPModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D16119011EE297ED0092B59B /* MBXMPPModule.m */; };
 		D17E14221ECAED3400263F8D /* video_right.png in Resources */ = {isa = PBXBuildFile; fileRef = D17E14211ECAED3400263F8D /* video_right.png */; };
 		D17E14241ECAEE7300263F8D /* video_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D17E14231ECAEE7300263F8D /* video_back.png */; };
 		D1EE601E1ED590F5002E2199 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EE601D1ED590F5002E2199 /* Images.xcassets */; };
@@ -34,6 +36,8 @@
 		08AF01F7A14F4D39C846AF71 /* libPods-MBProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DC4F6BCC842572B9E0B350 /* Pods-MBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProject/Pods-MBProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C52C74590E754448855F7E44 /* Pods-MBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProject/Pods-MBProject.release.xcconfig"; sourceTree = "<group>"; };
+		D109C6E01EE8FA6A0040632A /* MBToolsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBToolsManager.h; sourceTree = "<group>"; };
+		D109C6E11EE8FA6A0040632A /* MBToolsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBToolsManager.m; sourceTree = "<group>"; };
 		D125019B1E85164B00588560 /* MBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D125019F1E85164B00588560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D12501A11E85164B00588560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 		D12501AF1E85164C00588560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12501CD1E851F7400588560 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D12502D31E85241F00588560 /* MBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMacro.h; sourceTree = "<group>"; };
+		D16119001EE297ED0092B59B /* MBXMPPModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXMPPModule.h; sourceTree = "<group>"; };
+		D16119011EE297ED0092B59B /* MBXMPPModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXMPPModule.m; sourceTree = "<group>"; };
 		D17E14211ECAED3400263F8D /* video_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_right.png; sourceTree = "<group>"; };
 		D17E14231ECAEE7300263F8D /* video_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_back.png; sourceTree = "<group>"; };
 		D1EE601D1ED590F5002E2199 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -191,6 +197,8 @@
 			children = (
 				D1EE605A1ED6E454002E2199 /* Tools.h */,
 				D1EE605B1ED6E454002E2199 /* Tools.m */,
+				D109C6E01EE8FA6A0040632A /* MBToolsManager.h */,
+				D109C6E11EE8FA6A0040632A /* MBToolsManager.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -210,6 +218,8 @@
 				D1EE60841ED927E0002E2199 /* MBXMPPManager.m */,
 				D1EE60861ED9420C002E2199 /* MBXMPPMessageModule.h */,
 				D1EE60871ED9420C002E2199 /* MBXMPPMessageModule.m */,
+				D16119001EE297ED0092B59B /* MBXMPPModule.h */,
+				D16119011EE297ED0092B59B /* MBXMPPModule.m */,
 			);
 			path = XMPP;
 			sourceTree = "<group>";
@@ -359,7 +369,9 @@
 				D1EE60771ED6E454002E2199 /* ToolViewController.m in Sources */,
 				D1EE60741ED6E454002E2199 /* AViewController.m in Sources */,
 				D1EE60751ED6E454002E2199 /* MapViewController.m in Sources */,
+				D16119021EE297ED0092B59B /* MBXMPPModule.m in Sources */,
 				D1EE60761ED6E454002E2199 /* MessageListViewController.m in Sources */,
+				D109C6E21EE8FA6A0040632A /* MBToolsManager.m in Sources */,
 				D1EE60851ED927E0002E2199 /* MBXMPPManager.m in Sources */,
 				D1EE606C1ED6E454002E2199 /* NavigationController.m in Sources */,
 				D1EE606B1ED6E454002E2199 /* BaseViewController.m in Sources */,

@@ -10,6 +10,19 @@
 #ifndef MBToolMacro_h
 #define MBToolMacro_h
 
+#ifdef DEBUG
+#define DebugLOG(...) NSLog(__VA_ARGS__);
+#else
+#define DebugLOG(...);
+#endif
+
+#if defined (DEBUG) && DEBUG == 1
+#else
+#define NSLog(...) {};
+#endif
+
+
+
 // ==============Color====================
 #define kNavigationBarLeftAndRightColor [UIColor colorWithRed:255/255.0f green:75/255.0f blue:1/255.0f alpha:1.0f]
 #define kNavigationBarTitleColor [UIColor blackColor]

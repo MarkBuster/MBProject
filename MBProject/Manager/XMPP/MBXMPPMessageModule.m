@@ -100,7 +100,10 @@
         NSXMLElement *mXmlElement = [xmlElement elementForName:@"m"];// m 节点
         NSString *mType = [mXmlElement attributeStringValueForName:@"type"];// type属性值
         NSString *mId = [mXmlElement attributeStringValueForName:@"id"];// m节点 id 属性值
-        
+      /**
+       验证消息合法性只哦户， 消息类型，如果为发送 进行处理
+       如果为接受 则进行消息回执
+       */
         if (type == MBMessageStatusSending) {
             // 发送消息
         }else {
@@ -132,7 +135,6 @@
                     [kMBNotificationCetner postNotificationName:DeleteFriendRequestNotification object:msg_barJidStr];
                 }
             }
-            
             
             else if ([bodyValue isEqualToString:MBChatBody])
             {
@@ -254,8 +256,7 @@
                     if (!timestamp) {
                         timestamp = [[NSDate alloc] init];
                     }
-                    //                    数据库数据新建& 插入
-                    
+                    //                    数据库数据新建& 插入 
                 }
                 else if ([MBVerifyType isEqualToString:mType]) {
                     [kMBNotificationCetner postNotificationName:ReceiveFriendRequestNotification object:msg_content];
@@ -414,4 +415,6 @@
     
     // 数据插入数据库中
 }
+
+
 @end

@@ -50,4 +50,8 @@
 //收到账号在web客户端退出的通知
 #define WEB_QUIT_MESSAGE_INFO  @"WEB_QUIT_MESSAGE_INFO"
 
+
+// ===================== XMPP ===============================
+#define RECEIVE_DELAYED_MESSAGE @"RECEIVE_DELAYED_MESSAGE"
+
 #endif /* MBMacro_h */
